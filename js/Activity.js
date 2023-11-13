@@ -108,7 +108,7 @@
         const maxXRight = window.innerWidth - rightAreaWidth;
         const maxY = window.innerHeight - draggable.clientHeight;
 
-        const randomXLeft = Math.random() * maxXLeft;
+	/* const randomXLeft = Math.random() * maxXLeft;
         const randomXRight = maxXRight + Math.random() * rightAreaWidth;
         const randomY = Math.random() * maxY;
 
@@ -117,7 +117,7 @@
 
         draggable.style.left = randomX + 'px';
         draggable.style.top = randomY + 'px';
-        draggable.style.transform = 'rotate(0deg)';
+        draggable.style.transform = 'rotate(0deg)'; */
     });
 
     completeButton.style.display = 'block'; // 顯示完成按鈕
