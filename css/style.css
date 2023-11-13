@@ -10,6 +10,7 @@ body {
         }
         #imageContainer {
             position: relative;
+			height:1080px;
         }
 
         .draggable {
@@ -51,6 +52,44 @@ body {
             color: #fff;
             cursor: pointer;
         }
+		#image1{
+			bottom:33%;
+			left:17%
+			
+		}
+		#image2{
+			bottom:33%;
+			left:21%
+		}
+		#image3{
+			bottom:33%;
+			left:12%
+		}
+		#image4{
+			bottom:33%;
+			left:8%
+		}
+		#image5{
+			bottom:40%;
+			left:79%
+		}
+		#image6{
+			bottom:65%;
+			left:81%
+		}
+		#image7{
+			bottom:41%;
+			left:12%
+		}
+		#image8{
+			bottom:51%;
+			left:10%
+		}
+		#image9{
+			bottom:43%;
+			left:15%;
+			transform: rotate(270deg);
+		}
 		//圖片
 		.btn-21,
 		.btn-21 *,
